@@ -1,0 +1,27 @@
+# This is the description of a deck's capabilities for a virtual deck for development purpose
+#
+---
+name: Template Virtual Deck for Development
+driver: virtualdeck
+buttons:
+  - name: 0
+    action: push
+    feedback: image
+    dimension:
+      - 96
+      - 96
+    repeat:
+      - 2
+      - 1
+    layout:
+      offset:
+        - 20
+        - 20
+      spacing:
+        - 10
+        - 10
+background:
+  color: darkblue
+  size:
+    - 350
+    - 240
