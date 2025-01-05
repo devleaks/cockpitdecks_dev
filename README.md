@@ -1,4 +1,4 @@
-# Cockpitdecks Decks
+# Cockpitdecks Extension
 
 This is an empty extension package for Cockpitdecks.
 
