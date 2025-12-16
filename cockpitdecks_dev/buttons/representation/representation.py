@@ -6,7 +6,7 @@ class RepresentationTemplate(Representation):
 
     REPRESENTATION_NAME = "representation-template"
 
-    PARAMETERS = {}
+    SCHEMA = Representation.SCHEMA | {}
 
     def __init__(self, button: "Button"):
         Representation.__init__(self, button=button)
